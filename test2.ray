@@ -1,0 +1,12 @@
+#camera 0.0 0.0 10.0   0.0 0.0 -1.0   0.0 1.0 0.0   .523  
+#background 0.0 0.0 0.0
+#ambient 0.5 0.5 0.5 
+#ray_file_num 1
+#ray_file RayFiles/simple_sphere.ray
+#group_begin
+	1.0 0.0 0.0 2.0
+	0.0 1.0 0.0 2.0
+	0.0 0.0 1.0 2.0
+	0.0 0.0 0.0 1.0
+	#ray_file_instance 0
+#group_end

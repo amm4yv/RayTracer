@@ -1,0 +1,29 @@
+#camera 0.0 0.0 10.0   0.0 0.0 -1.0   0.0 1.0 0.0   .523  
+#background 0.0 0.0 0.0
+#ambient 0.5 0.5 0.5 
+#light_num 3
+#light_point
+	0.8 0.8 0.8
+	-10.0 10.0 10.0
+	1.0 0.0 0.0
+#light_spot
+	1.0 1.0 1.0
+	10.0 10.0 10.0
+	-0.5773 -0.5773 -0.5773
+	1.0 0.0 0.0
+	0.231 0.5
+#light_dir
+	0.1 0.1 0.2
+	0.0 0.707 -0.707
+#ray_file_num 2
+#ray_file simple_sphere.ray
+#ray_file test2.ray
+#ray_file_instance 0
+#ray_file_instance 1
+#group_begin
+	1.0 0.0 0.0 -1.0
+	0.0 2.0 0.0 -1.0
+	0.0 0.0 0.5 -1.0
+	0.0 0.0 0.0 1.0
+	#ray_file_instance 0
+#group_end
